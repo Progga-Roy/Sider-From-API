@@ -1,0 +1,55 @@
+ .slider-Container{
+    max-width: 1000px;
+    height: 100%;
+    margin: 50px auto;
+   overflow: hidden;
+   position: relative;
+}
+.mySlides{
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    border: 2px solid green;
+    background-color: aliceblue;
+    
+}
+ .slider-div{
+    width: 60%;
+}
+.slider-div img{
+    width: 100%;
+    height: 50%;
+}
+.slides-info{
+    width: 40%;
+} 
+.numberText{
+    position: absolute;
+    top: 0;
+    color: aliceblue;
+}
+.brandName{
+    position: absolute;
+    bottom:130px;
+    margin-left: 25%;
+    text-align: center;
+    color: aliceblue;
+}
+.prev , .next{
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 20px 20px;
+   
+    font-size: 22px;
+    font-weight: bold;
+   
+}
+.next{
+    right: 0
+}
+.prev:hover,
+.next:hover{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.372);
+}
